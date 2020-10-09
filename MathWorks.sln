@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathWorks", "MathWorks.csproj", "{220583F6-CE76-4B3C-946E-E7C5939DD029}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{220583F6-CE76-4B3C-946E-E7C5939DD029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{220583F6-CE76-4B3C-946E-E7C5939DD029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{220583F6-CE76-4B3C-946E-E7C5939DD029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{220583F6-CE76-4B3C-946E-E7C5939DD029}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B2E554D-3AF9-4744-8D80-A239620EC1BA}
+	EndGlobalSection
+EndGlobal
