@@ -24,4 +24,36 @@ module.exports = [
       'no-console': 'off',
     },
   },
+
+  // Test files — add Vitest and jsdom globals so ESLint doesn't flag them as
+  // undefined. Rules intentionally inherit from the block above; no weakening.
+  {
+    files: ['src/__tests__/**/*.js'],
+    languageOptions: {
+      ecmaVersion: 'latest',
+      sourceType: 'module',
+      globals: {
+        // Vitest globals (enabled via test.globals = true in vitest.config.js)
+        describe: 'readonly',
+        it: 'readonly',
+        test: 'readonly',
+        expect: 'readonly',
+        beforeAll: 'readonly',
+        afterAll: 'readonly',
+        beforeEach: 'readonly',
+        afterEach: 'readonly',
+        vi: 'readonly',
+        // jsdom browser globals
+        window: 'readonly',
+        document: 'readonly',
+        console: 'readonly',
+      },
+    },
+    rules: {
+      semi: ['error', 'always'],
+      quotes: ['error', 'single'],
+      'no-unused-vars': 'warn',
+      'no-console': 'off',
+    },
+  },
 ];
