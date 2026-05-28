@@ -1,0 +1,24 @@
+{
+  "name": "math-works",
+  "version": "1.0.0",
+  "description": "Accessible Math Works coding challenge built with Svelte 5 and Parcel",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "clean": "rimraf dist .parcel-cache",
+    "lint": "eslint \"src/**/*.js\"",
+    "format": "prettier --write \"src/**/*.{js,svelte,html,css}\""
+  },
+  "devDependencies": {
+    "@parcel/plugin": "2.16.4",
+    "eslint": "10.4.0",
+    "parcel": "2.16.4",
+    "prettier": "3.8.3",
+    "rimraf": "6.1.3",
+    "svelte": "5.55.10"
+  },
+  "packageManager": "yarn@4.15.0",
+  "@parcel/resolver-default": {
+    "packageExports": true
+  }
+}
