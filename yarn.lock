@@ -519,7 +519,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fontsource-variable/inter@npm:^5.2.8":
+"@fontsource-variable/inter@npm:5.2.8":
   version: 5.2.8
   resolution: "@fontsource-variable/inter@npm:5.2.8"
   checksum: 10c0/35b46df31c8c18f55f87228acf6297e4dac6cc9f38d0faaafdaf5a40e40c386cf1bfb115fb0fe0dcdb9b7e14f582843693ccf070d9c903072a5b2fc0f8dfde56
@@ -574,7 +574,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@internationalized/date@npm:^3.12.2":
+"@internationalized/date@npm:3.12.2":
   version: 3.12.2
   resolution: "@internationalized/date@npm:3.12.2"
   dependencies:
@@ -636,7 +636,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lucide/svelte@npm:^1.17.0":
+"@lucide/svelte@npm:1.17.0":
   version: 1.17.0
   resolution: "@lucide/svelte@npm:1.17.0"
   peerDependencies:
@@ -1392,7 +1392,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bits-ui@npm:^2.18.1":
+"bits-ui@npm:2.18.1":
   version: 2.18.1
   resolution: "bits-ui@npm:2.18.1"
   dependencies:
@@ -1441,7 +1441,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"clsx@npm:^2.1.1":
+"clsx@npm:2.1.1, clsx@npm:^2.1.1":
   version: 2.1.1
   resolution: "clsx@npm:2.1.1"
   checksum: 10c0/c4c8eb865f8c82baab07e71bfa8897c73454881c4f99d6bc81585aecd7c441746c1399d08363dc096c550cceaf97bd4ce1e8854e1771e9998d9f94c4fe075839
@@ -2491,9 +2491,9 @@ __metadata:
   dependencies:
     "@eslint/compat": "npm:2.1.0"
     "@eslint/js": "npm:10.0.1"
-    "@fontsource-variable/inter": "npm:^5.2.8"
-    "@internationalized/date": "npm:^3.12.2"
-    "@lucide/svelte": "npm:^1.17.0"
+    "@fontsource-variable/inter": "npm:5.2.8"
+    "@internationalized/date": "npm:3.12.2"
+    "@lucide/svelte": "npm:1.17.0"
     "@sveltejs/adapter-netlify": "npm:6.0.4"
     "@sveltejs/kit": "npm:2.60.1"
     "@sveltejs/vite-plugin-svelte": "npm:7.1.2"
@@ -2502,26 +2502,26 @@ __metadata:
     "@testing-library/svelte": "npm:5.3.1"
     "@testing-library/user-event": "npm:14.6.1"
     "@vitest/coverage-v8": "npm:4.1.7"
-    bits-ui: "npm:^2.18.1"
-    clsx: "npm:^2.1.1"
+    bits-ui: "npm:2.18.1"
+    clsx: "npm:2.1.1"
     eslint: "npm:10.4.0"
     eslint-config-prettier: "npm:10.1.8"
     eslint-plugin-svelte: "npm:3.18.0"
     globals: "npm:17.6.0"
     jsdom: "npm:29.1.1"
-    mode-watcher: "npm:^1.1.0"
+    mode-watcher: "npm:1.1.0"
     prettier: "npm:3.8.3"
-    prettier-plugin-svelte: "npm:3.5.2"
+    prettier-plugin-svelte: "npm:4.0.1"
     prettier-plugin-tailwindcss: "npm:0.8.0"
     rimraf: "npm:6.1.3"
-    shadcn-svelte: "npm:^1.3.0"
+    shadcn-svelte: "npm:1.3.0"
     svelte: "npm:5.55.10"
     svelte-check: "npm:4.4.8"
-    tailwind-merge: "npm:^3.6.0"
-    tailwind-variants: "npm:^3.2.2"
+    tailwind-merge: "npm:3.6.0"
+    tailwind-variants: "npm:3.2.2"
     tailwindcss: "npm:4.3.0"
-    tw-animate-css: "npm:^1.4.0"
-    typescript: "npm:^6.0.3"
+    tw-animate-css: "npm:1.4.0"
+    typescript: "npm:6.0.3"
     vite: "npm:8.0.14"
     vitest: "npm:4.1.7"
   languageName: unknown
@@ -2566,7 +2566,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mode-watcher@npm:^1.1.0":
+"mode-watcher@npm:1.1.0":
   version: 1.1.0
   resolution: "mode-watcher@npm:1.1.0"
   dependencies:
@@ -2817,13 +2817,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-svelte@npm:3.5.2":
-  version: 3.5.2
-  resolution: "prettier-plugin-svelte@npm:3.5.2"
+"prettier-plugin-svelte@npm:4.0.1":
+  version: 4.0.1
+  resolution: "prettier-plugin-svelte@npm:4.0.1"
   peerDependencies:
     prettier: ^3.0.0
-    svelte: ^3.2.0 || ^4.0.0-next.0 || ^5.0.0-next.0
-  checksum: 10c0/d0d4a817588efad41b4bc7c7ea41d42bc1068fd52be63b5b6698563fb27eb38ade3007a396a9cd9da875783c5cb489123635c685f20ec9f57b924894732c5f26
+    svelte: ^5.0.0
+  checksum: 10c0/971859159f751519e74f2d9ac9e912c5fefe3af7d6f2b96312b489fc5013287f869833bf67676cc949b9fd5ab78b6b650c34920aa6a02edd089b12902ae770b8
   languageName: node
   linkType: hard
 
@@ -3093,7 +3093,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shadcn-svelte@npm:^1.3.0":
+"shadcn-svelte@npm:1.3.0":
   version: 1.3.0
   resolution: "shadcn-svelte@npm:1.3.0"
   dependencies:
@@ -3293,14 +3293,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwind-merge@npm:^3.0.0, tailwind-merge@npm:^3.6.0":
+"tailwind-merge@npm:3.6.0, tailwind-merge@npm:^3.0.0":
   version: 3.6.0
   resolution: "tailwind-merge@npm:3.6.0"
   checksum: 10c0/a728d929f4786bcb48641db4228cc8c006a7545491783a658fb4d24d177dab960620991d17805a047309228de50ab949ca8d9e112c30183da0432367796ae186
   languageName: node
   linkType: hard
 
-"tailwind-variants@npm:^3.2.2":
+"tailwind-variants@npm:3.2.2":
   version: 3.2.2
   resolution: "tailwind-variants@npm:3.2.2"
   peerDependencies:
@@ -3421,7 +3421,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tw-animate-css@npm:^1.4.0":
+"tw-animate-css@npm:1.4.0":
   version: 1.4.0
   resolution: "tw-animate-css@npm:1.4.0"
   checksum: 10c0/6cfbc19ccc73883ec80ef1f9147f43e736cb01ee99c8172968b37eb81b720523d30e38b1a96aef92db3c586d864204db5510b51744ddacbbf0ad8e3c7fb56ec7
@@ -3437,7 +3437,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^6.0.3":
+"typescript@npm:6.0.3":
   version: 6.0.3
   resolution: "typescript@npm:6.0.3"
   bin:
@@ -3447,7 +3447,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A^6.0.3#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@npm%3A6.0.3#optional!builtin<compat/typescript>":
   version: 6.0.3
   resolution: "typescript@patch:typescript@npm%3A6.0.3#optional!builtin<compat/typescript>::version=6.0.3&hash=5786d5"
   bin:
