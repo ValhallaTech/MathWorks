@@ -1,5 +1,5 @@
 # ============================================
-# Node.js / Parcel / Yarn (Svelte + Parcel app)
+# Node.js / SvelteKit / Vite / Yarn (Svelte app)
 # ============================================
 
 # Dependencies
@@ -13,9 +13,13 @@ node_modules/
 !.yarn/sdks
 !.yarn/versions
 
-# Parcel
+# SvelteKit / Vite
+.svelte-kit/
+build/
 dist/
-.parcel-cache/
+.netlify/
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
 
 # Logs
 logs

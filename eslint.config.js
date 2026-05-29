@@ -1,39 +1,57 @@
-'use strict';
+// ESLint flat configuration (ESLint 9/10) for the Math Works SvelteKit app.
+// Lints plain JavaScript modules and Svelte 5 single-file components under
+// `src/`. Generated build artifacts and vendored shadcn-svelte UI primitives
+// are ignored.
 
-// ESLint flat configuration (ESLint 9/10) for the Math Works browser app.
-// Lints plain JavaScript modules under `src/`. Svelte single-file components
-// are compiled by Parcel and are linted at build time by the Svelte compiler.
+import prettier from 'eslint-config-prettier';
+import js from '@eslint/js';
+import svelte from 'eslint-plugin-svelte';
+import globals from 'globals';
+import { fileURLToPath } from 'node:url';
+import { includeIgnoreFile } from '@eslint/compat';
+import svelteConfig from './svelte.config.js';
 
-module.exports = [
+const gitignorePath = fileURLToPath(new URL('./.gitignore', import.meta.url));
+
+export default [
+  includeIgnoreFile(gitignorePath),
+
+  // Vendored shadcn-svelte primitives are generated code; don't lint them.
   {
-    files: ['src/**/*.js'],
+    ignores: ['src/lib/components/ui/**', '.svelte-kit/**', 'build/**', '.netlify/**'],
+  },
+
+  js.configs.recommended,
+  ...svelte.configs.recommended,
+  prettier,
+  ...svelte.configs.prettier,
+
+  {
     languageOptions: {
       ecmaVersion: 'latest',
       sourceType: 'module',
-      globals: {
-        // Browser globals
-        window: 'readonly',
-        document: 'readonly',
-        console: 'readonly',
-      },
+      globals: { ...globals.browser, ...globals.node },
     },
     rules: {
       semi: ['error', 'always'],
-      quotes: ['error', 'single'],
+      quotes: ['error', 'single', { avoidEscape: true }],
       'no-unused-vars': 'warn',
       'no-console': 'off',
     },
   },
 
-  // Test files — add Vitest and jsdom globals so ESLint doesn't flag them as
-  // undefined. Rules intentionally inherit from the block above; no weakening.
+  {
+    files: ['**/*.svelte', '**/*.svelte.js'],
+    languageOptions: {
+      parserOptions: { svelteConfig },
+    },
+  },
+
+  // Test files — add Vitest globals so ESLint doesn't flag them as undefined.
   {
     files: ['src/__tests__/**/*.js'],
     languageOptions: {
-      ecmaVersion: 'latest',
-      sourceType: 'module',
       globals: {
-        // Vitest globals (enabled via test.globals = true in vitest.config.js)
         describe: 'readonly',
         it: 'readonly',
         test: 'readonly',
@@ -43,17 +61,7 @@ module.exports = [
         beforeEach: 'readonly',
         afterEach: 'readonly',
         vi: 'readonly',
-        // jsdom browser globals
-        window: 'readonly',
-        document: 'readonly',
-        console: 'readonly',
       },
-    },
-    rules: {
-      semi: ['error', 'always'],
-      quotes: ['error', 'single'],
-      'no-unused-vars': 'warn',
-      'no-console': 'off',
     },
   },
 ];
