@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/60dacf60-4d64-424c-8120-79c9dfcb5a56/deploy-status)](https://app.netlify.com/projects/fs3mathworks/deploys)
+
 # Math Works
 
 > Accessible implementation of the **Math Works** coding challenge: add two numbers, built with [Svelte 5](https://svelte.dev/) and [SvelteKit](https://svelte.dev/docs/kit) on [Vite](https://vite.dev/), styled with [shadcn-svelte](https://shadcn-svelte.com/) and [Tailwind CSS](https://tailwindcss.com/), deployed to [Netlify](https://www.netlify.com/).
