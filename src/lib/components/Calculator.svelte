@@ -16,11 +16,13 @@
   let num1 = $state('');
   let num2 = $state('');
   let operation = $state(OPERATIONS.add);
+  /** @type {number|null} */
   let result = $state(null);
   let error = $state('');
 
   const triggerLabel = $derived(operationLabels[operation] ?? 'Select operation');
 
+  /** @param {SubmitEvent} event */
   function onSubmit(event) {
     event.preventDefault();
     const outcome = calculate(operation, num1, num2);

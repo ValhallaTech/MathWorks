@@ -30,9 +30,18 @@
 		},
 	});
 
+	/**
+	 * @typedef {import('tailwind-variants').VariantProps<typeof buttonVariants>['variant']} ButtonVariant
+	 * @typedef {import('tailwind-variants').VariantProps<typeof buttonVariants>['size']} ButtonSize
+	 * @typedef {import('$lib/utils.js').WithElementRef<
+	 *   import('svelte/elements').HTMLButtonAttributes & import('svelte/elements').HTMLAnchorAttributes
+	 * > & { variant?: ButtonVariant; size?: ButtonSize }} ButtonProps
+	 */
+
 </script>
 
 <script>
+	/** @type {ButtonProps} */
 	let {
 		class: className,
 		variant = "default",

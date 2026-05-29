@@ -1,6 +1,7 @@
 <script>
 	import { cn } from "$lib/utils.js";
 
+	/** @type {import('$lib/utils.js').WithElementRef<import('svelte/elements').HTMLAttributes<HTMLDivElement>> & { size?: "default" | "sm" }} */
 	let {
 		ref = $bindable(null),
 		class: className,

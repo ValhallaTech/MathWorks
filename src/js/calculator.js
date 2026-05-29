@@ -48,7 +48,14 @@ export function parseNumber(value) {
   return parsed;
 }
 
-/** Guard that both arguments are finite numbers. */
+/**
+ * Guard that both arguments are finite numbers.
+ *
+ * @param {number} a - First operand.
+ * @param {number} b - Second operand.
+ * @returns {void}
+ * @throws {TypeError} If either operand is not a finite number.
+ */
 function assertNumbers(a, b) {
   if (!Number.isFinite(a) || !Number.isFinite(b)) {
     throw new TypeError('Both operands must be finite numbers.');
@@ -99,6 +106,7 @@ export function divide(a, b) {
   return a / b;
 }
 
+/** @type {Record<string, (a: number, b: number) => number>} */
 const OPERATION_FNS = {
   [OPERATIONS.add]: add,
   [OPERATIONS.subtract]: subtract,
@@ -126,6 +134,6 @@ export function calculate(operation, rawA, rawB) {
     const b = parseNumber(rawB);
     return { value: fn(a, b), error: null };
   } catch (err) {
-    return { value: null, error: err.message };
+    return { value: null, error: err instanceof Error ? err.message : String(err) };
   }
 }

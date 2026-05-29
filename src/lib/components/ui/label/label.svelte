@@ -2,6 +2,7 @@
 	import { Label as LabelPrimitive } from "bits-ui";
 	import { cn } from "$lib/utils.js";
 
+	/** @type {import('bits-ui').Label.RootProps} */
 	let {
 		ref = $bindable(null),
 		class: className,

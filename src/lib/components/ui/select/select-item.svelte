@@ -3,6 +3,7 @@
 	import { cn } from "$lib/utils.js";
 	import CheckIcon from '@lucide/svelte/icons/check';
 
+	/** @type {import('$lib/utils.js').WithoutChild<import('bits-ui').Select.ItemProps>} */
 	let {
 		ref = $bindable(null),
 		class: className,

@@ -83,10 +83,12 @@ describe('parseNumber', () => {
     });
 
     it('throws for null', () => {
+      // @ts-expect-error - intentionally passing an invalid input to test the guard
       expect(() => parseNumber(null)).toThrow('Please enter a number.');
     });
 
     it('throws for undefined', () => {
+      // @ts-expect-error - intentionally passing an invalid input to test the guard
       expect(() => parseNumber(undefined)).toThrow('Please enter a number.');
     });
 
@@ -346,6 +348,7 @@ describe('calculate', () => {
     });
 
     it('returns an error when rawA is null', () => {
+      // @ts-expect-error - intentionally passing an invalid input to test the error path
       const result = calculate(OPERATIONS.add, null, '5');
       expect(result.value).toBeNull();
       expect(result.error).toBe('Please enter a number.');
@@ -359,6 +362,7 @@ describe('calculate', () => {
 
     it('never throws — always returns a result object', () => {
       expect(() =>
+        // @ts-expect-error - intentionally passing invalid inputs to verify it never throws
         calculate(OPERATIONS.add, undefined, undefined)
       ).not.toThrow();
     });

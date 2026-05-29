@@ -4,6 +4,7 @@
 	import SelectScrollUpButton from "./select-scroll-up-button.svelte";
 	import SelectScrollDownButton from "./select-scroll-down-button.svelte";
 	import { cn } from "$lib/utils.js";
+	/** @type {import('$lib/utils.js').WithoutChild<import('bits-ui').Select.ContentProps> & { portalProps?: import('bits-ui').Select.PortalProps }} */
 	let {
 		ref = $bindable(null),
 		class: className,

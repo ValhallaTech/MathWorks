@@ -11,13 +11,21 @@ beforeEach(() => {
 // bits-ui's Select applies a scroll lock that leaves `pointer-events: none` on
 // <body> after closing under jsdom; disable the pointer-events assertion so
 // follow-up interactions (typing, clicking) still work.
+/**
+ * @param {Parameters<typeof userEvent.setup>[0]} [options]
+ * @returns {ReturnType<typeof userEvent.setup>}
+ */
 const setup = (options) => userEvent.setup({ pointerEventsCheck: 0, ...options });
 
 // ---------------------------------------------------------------------------
 // Helpers
 // ---------------------------------------------------------------------------
 
-/** Fill both number inputs and click Calculate. */
+/**
+ * Fill both number inputs and click Calculate.
+ * @param {string|number} num1
+ * @param {string|number} num2
+ */
 async function calculate(num1, num2) {
   const user = setup();
   await user.clear(screen.getByLabelText('Number 1'));
@@ -33,6 +41,7 @@ async function calculate(num1, num2) {
  * `visibility: hidden` under jsdom (no layout engine), so pointer clicks on
  * options don't register — but the component's keyboard handlers work reliably.
  * Operation order in the UI is: add(0), subtract(1), multiply(2), divide(3).
+ * @param {number} steps
  */
 async function selectOperation(steps) {
   const user = setup();

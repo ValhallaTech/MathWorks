@@ -3,6 +3,7 @@
 	import { cn } from "$lib/utils.js";
 	import ChevronUpIcon from '@lucide/svelte/icons/chevron-up';
 
+	/** @type {import('$lib/utils.js').WithoutChild<import('bits-ui').Select.ScrollUpButtonProps>} */
 	let {
 		ref = $bindable(null),
 		class: className,

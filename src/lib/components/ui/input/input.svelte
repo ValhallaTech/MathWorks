@@ -1,6 +1,7 @@
 <script>
 	import { cn } from "$lib/utils.js";
 
+	/** @type {import('$lib/utils.js').WithElementRef<import('svelte/elements').HTMLInputAttributes, HTMLInputElement> & { files?: FileList | null }} */
 	let {
 		ref = $bindable(null),
 		value = $bindable(),

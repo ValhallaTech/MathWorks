@@ -26,8 +26,20 @@ jobs:
       - name: Install dependencies
         run: yarn install --immutable
 
+      # `yarn install` runs the `prepare` script (`svelte-kit sync`), but that
+      # script swallows failures (`|| echo ''`). Run sync explicitly so the
+      # generated `.svelte-kit/` types exist for lint and check, and so a sync
+      # failure fails the job instead of being hidden.
+      - name: Sync SvelteKit
+        run: yarn svelte-kit sync
+
       - name: Lint
         run: yarn lint
+
+      # Runs `svelte-kit sync && svelte-check` to catch component/type issues
+      # across the SvelteKit + shadcn-svelte/bits-ui stack.
+      - name: Type & Svelte check
+        run: yarn check
 
       - name: Test with coverage
         run: yarn test:coverage
