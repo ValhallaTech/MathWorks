@@ -1,0 +1,22 @@
+<script>
+	import { cn } from "$lib/utils.js";
+	/** @type {import('$lib/utils.js').WithElementRef<import('svelte/elements').HTMLAttributes<HTMLDivElement>>} */
+	let {
+		ref = $bindable(null),
+		class: className,
+		children,
+		...restProps
+	} = $props();
+</script>
+
+<div
+	bind:this={ref}
+	data-slot="card-action"
+	class={cn(
+		"cn-card-action col-start-2 row-span-2 row-start-1 self-start justify-self-end",
+		className
+	)}
+	{...restProps}
+>
+	{@render children?.()}
+</div>
