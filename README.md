@@ -139,4 +139,4 @@ See [DEPLOYMENT.md](DEPLOYMENT.md) for Netlify deployment instructions.
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+GPL-3.0 — see [LICENSE](LICENSE).
