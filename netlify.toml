@@ -16,6 +16,7 @@
   [build.environment]
     NODE_VERSION = "24.16.0"
     YARN_VERSION = "4.15.0"
+    PYTHON_VERSION = "3.14.5"
 
 # Headers for security and performance
 [[headers]]
