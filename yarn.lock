@@ -931,9 +931,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sveltejs/kit@npm:2.62.0":
-  version: 2.62.0
-  resolution: "@sveltejs/kit@npm:2.62.0"
+"@sveltejs/kit@npm:2.63.0":
+  version: 2.63.0
+  resolution: "@sveltejs/kit@npm:2.63.0"
   dependencies:
     "@standard-schema/spec": "npm:^1.0.0"
     "@sveltejs/acorn-typescript": "npm:^1.0.9"
@@ -960,7 +960,14 @@ __metadata:
       optional: true
   bin:
     svelte-kit: svelte-kit.js
-  checksum: 10c0/bd5957d80e73f3244de9a2bb1d10cbc12004bbabe4e52263e69d11fc3c62d8c47a9e1f39d7b04504a71305ae84a7fb073a2d9385be843963ed09c0efaa33db7b
+  checksum: 10c0/df125f1bb6e64a7e2c5923fe2c25ecca729ac95ee87baf20da8bad6d575ddebcbf6b3dfa4e3a9433c672a146918b4685b01ec03629853d0f099e66c18686d669
+  languageName: node
+  linkType: hard
+
+"@sveltejs/load-config@npm:0.1.1":
+  version: 0.1.1
+  resolution: "@sveltejs/load-config@npm:0.1.1"
+  checksum: 10c0/9de8a176e164ddd256899921adf871c1fbc504179d209faa4d9617d7ecd41eb7df240f3375ae421802bf973c97585470210b45b7bff5a870d20f9f560ebdadf2
   languageName: node
   linkType: hard
 
@@ -2611,7 +2618,7 @@ __metadata:
     "@internationalized/date": "npm:3.12.2"
     "@lucide/svelte": "npm:1.17.0"
     "@sveltejs/adapter-netlify": "npm:6.0.4"
-    "@sveltejs/kit": "npm:2.62.0"
+    "@sveltejs/kit": "npm:2.63.0"
     "@sveltejs/vite-plugin-svelte": "npm:7.1.2"
     "@tailwindcss/vite": "npm:4.3.0"
     "@testing-library/jest-dom": "npm:6.9.1"
@@ -2632,7 +2639,7 @@ __metadata:
     rimraf: "npm:6.1.3"
     shadcn-svelte: "npm:1.3.0"
     svelte: "npm:5.56.1"
-    svelte-check: "npm:4.5.0"
+    svelte-check: "npm:4.6.0"
     tailwind-merge: "npm:3.6.0"
     tailwind-variants: "npm:3.2.2"
     tailwindcss: "npm:4.3.0"
@@ -3365,11 +3372,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte-check@npm:4.5.0":
-  version: 4.5.0
-  resolution: "svelte-check@npm:4.5.0"
+"svelte-check@npm:4.6.0":
+  version: 4.6.0
+  resolution: "svelte-check@npm:4.6.0"
   dependencies:
     "@jridgewell/trace-mapping": "npm:^0.3.25"
+    "@sveltejs/load-config": "npm:0.1.1"
     chokidar: "npm:^4.0.1"
     fdir: "npm:^6.2.0"
     picocolors: "npm:^1.0.0"
@@ -3379,7 +3387,7 @@ __metadata:
     typescript: ">=5.0.0"
   bin:
     svelte-check: bin/svelte-check
-  checksum: 10c0/a099676eee1400e26e0a67409f8422cb99bac07d3cb108b1cc50c48c113efb50dffa0320943bffdf77a19a0ac46eccfcc5047783404b91374002002aba28c0b8
+  checksum: 10c0/ecfcad25c6bb450c1d9c1fd0eb4c244156d0477db73048637addbf8c3159ce53e125e5411d9009f124196c6b7e359a5a5a3af5b304adebb51d85e2a9dac9ae9c
   languageName: node
   linkType: hard
 
