@@ -636,12 +636,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lucide/svelte@npm:1.20.0":
-  version: 1.20.0
-  resolution: "@lucide/svelte@npm:1.20.0"
+"@lucide/svelte@npm:1.21.0":
+  version: 1.21.0
+  resolution: "@lucide/svelte@npm:1.21.0"
   peerDependencies:
     svelte: ^5
-  checksum: 10c0/c84027ca928f2058c1924f0f57861ff996dfa526920166ff1f4b05a9e6f0a6e76d303028d98f561830597f153d36d3ebe38ad21c29a37f1196488bcd48fe17f9
+  checksum: 10c0/f9a01cc333aaa6230af6b4820be1e742db177c6c2d3fc878360e942c88c07d164f461e593da08d233cd88b9b297168024733aee1e2abadb77aeab8656648beb1
   languageName: node
   linkType: hard
 
@@ -931,9 +931,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sveltejs/kit@npm:2.65.2":
-  version: 2.65.2
-  resolution: "@sveltejs/kit@npm:2.65.2"
+"@sveltejs/kit@npm:2.66.0":
+  version: 2.66.0
+  resolution: "@sveltejs/kit@npm:2.66.0"
   dependencies:
     "@standard-schema/spec": "npm:^1.0.0"
     "@sveltejs/acorn-typescript": "npm:^1.0.9"
@@ -960,7 +960,7 @@ __metadata:
       optional: true
   bin:
     svelte-kit: svelte-kit.js
-  checksum: 10c0/600f4419fccd9106a3fe500b9cdcd9f0b6d32a68ac89f87d33051ed69abc56cf77552c99dff51b4ff42da5c1b927b42c0ea17cc4aa368634b7370a26b80636f6
+  checksum: 10c0/c90f595b7ac67aecc70c7eb737b4dc0df2063ee7bbaa796eff53c9cdd7719baf00b5f5d472d9bb0f202044f7f3cfecea91589c2448088c8fbf11613db17da226
   languageName: node
   linkType: hard
 
@@ -2616,9 +2616,9 @@ __metadata:
     "@eslint/js": "npm:10.0.1"
     "@fontsource-variable/inter": "npm:5.2.8"
     "@internationalized/date": "npm:3.12.2"
-    "@lucide/svelte": "npm:1.20.0"
+    "@lucide/svelte": "npm:1.21.0"
     "@sveltejs/adapter-netlify": "npm:6.0.4"
-    "@sveltejs/kit": "npm:2.65.2"
+    "@sveltejs/kit": "npm:2.66.0"
     "@sveltejs/vite-plugin-svelte": "npm:7.1.2"
     "@tailwindcss/vite": "npm:4.3.1"
     "@testing-library/jest-dom": "npm:6.9.1"
