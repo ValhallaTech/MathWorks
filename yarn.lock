@@ -1189,21 +1189,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/svelte-core@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@testing-library/svelte-core@npm:1.1.0"
+"@testing-library/svelte-core@npm:1.1.2":
+  version: 1.1.2
+  resolution: "@testing-library/svelte-core@npm:1.1.2"
   peerDependencies:
     svelte: ^3 || ^4 || ^5 || ^5.0.0-next.0
-  checksum: 10c0/3186808aa12588a23331e7426e0f0c59498d0ccea178a18e8a5edd8e9ff94b79aa0dee97559645459f5f53f920bab3f70eed2081b78edaec9a7ab84194433b47
+  checksum: 10c0/c2480cce77a2a95238a8fab95b38c90fdcce0899b26578076cf7d84365cc15052a9537c2d151a8fcafed6435d97d094d322914cff23f25bcb12a0390b3fa807d
   languageName: node
   linkType: hard
 
-"@testing-library/svelte@npm:5.4.0":
-  version: 5.4.0
-  resolution: "@testing-library/svelte@npm:5.4.0"
+"@testing-library/svelte@npm:5.4.1":
+  version: 5.4.1
+  resolution: "@testing-library/svelte@npm:5.4.1"
   dependencies:
     "@testing-library/dom": "npm:9.x.x || 10.x.x"
-    "@testing-library/svelte-core": "npm:1.1.0"
+    "@testing-library/svelte-core": "npm:1.1.2"
   peerDependencies:
     svelte: ^3 || ^4 || ^5 || ^5.0.0-next.0
     vite: "*"
@@ -1213,7 +1213,7 @@ __metadata:
       optional: true
     vitest:
       optional: true
-  checksum: 10c0/14d43e831d0bfff0183210e199ba5ae5d082a0ccb248761e2aa9d10ba2df60e776b21de5bda4ef584165ca6e9b6afbb6156733d7f92cdfcbd3e3db122b3f2638
+  checksum: 10c0/2c6b1de6d34987e409af60a74f486e1a2ac4770d3f17aff938c63fdedbedc113bb6e1cf08de5eaa2e4314ad3648607479ecc436d033f8f960a8bf81ca1a1699d
   languageName: node
   linkType: hard
 
@@ -2622,7 +2622,7 @@ __metadata:
     "@sveltejs/vite-plugin-svelte": "npm:7.1.2"
     "@tailwindcss/vite": "npm:4.3.1"
     "@testing-library/jest-dom": "npm:6.9.1"
-    "@testing-library/svelte": "npm:5.4.0"
+    "@testing-library/svelte": "npm:5.4.1"
     "@testing-library/user-event": "npm:14.6.1"
     "@vitest/coverage-v8": "npm:4.1.9"
     bits-ui: "npm:2.18.1"
