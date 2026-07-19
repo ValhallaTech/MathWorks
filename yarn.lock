@@ -547,10 +547,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fontsource-variable/inter@npm:5.2.8":
-  version: 5.2.8
-  resolution: "@fontsource-variable/inter@npm:5.2.8"
-  checksum: 10c0/35b46df31c8c18f55f87228acf6297e4dac6cc9f38d0faaafdaf5a40e40c386cf1bfb115fb0fe0dcdb9b7e14f582843693ccf070d9c903072a5b2fc0f8dfde56
+"@fontsource-variable/inter@npm:5.3.0":
+  version: 5.3.0
+  resolution: "@fontsource-variable/inter@npm:5.3.0"
+  checksum: 10c0/46fbe41e8482a718f99634c8254346c6081d615415059be12e177224c903d688199125967825e75d4b8122668fd83f70880e11d4e02d08c20b503c65fe2a96d1
   languageName: node
   linkType: hard
 
@@ -971,9 +971,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sveltejs/kit@npm:2.70.0":
-  version: 2.70.0
-  resolution: "@sveltejs/kit@npm:2.70.0"
+"@sveltejs/kit@npm:2.70.1":
+  version: 2.70.1
+  resolution: "@sveltejs/kit@npm:2.70.1"
   dependencies:
     "@standard-schema/spec": "npm:^1.0.0"
     "@sveltejs/acorn-typescript": "npm:^1.0.9"
@@ -1000,7 +1000,7 @@ __metadata:
       optional: true
   bin:
     svelte-kit: svelte-kit.js
-  checksum: 10c0/240fea7fb01bb815d900f25d52f9f820a331133a839722f4d91e2dd4ab4c40c8320983407d8fe813ecfd7b08471324f2a3f72b495ca722aa75975cd00284a958
+  checksum: 10c0/c510b42510622292b9ad34b048141634d92a1e6ff71f03dfc02c93fa2e7765be0b0a8bbc15101b8deae30a69cd36b8cba4b2ac4cfb3802bef1c037eac5ea689d
   languageName: node
   linkType: hard
 
@@ -1894,9 +1894,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-svelte@npm:3.20.0":
-  version: 3.20.0
-  resolution: "eslint-plugin-svelte@npm:3.20.0"
+"eslint-plugin-svelte@npm:3.21.0":
+  version: 3.21.0
+  resolution: "eslint-plugin-svelte@npm:3.21.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.6.1"
     "@jridgewell/sourcemap-codec": "npm:^1.5.0"
@@ -1914,7 +1914,7 @@ __metadata:
   peerDependenciesMeta:
     svelte:
       optional: true
-  checksum: 10c0/f3eb86bbdceb4b37108b5906e4d0f2db70029022ed99ebe713c45ca987ea0986e9bbdee2da609ae6ba26f46eb86e3d866f00341c08b9ca19cb153f43b0ca6d9d
+  checksum: 10c0/405d2b02260e89214e350e514f16f74dd39a861fb85efb8847b91c6039eecf3ea2687a321ae9e0bfdfe430c84d85dacfb813943cbe2eceb3b64e559c650eee8a
   languageName: node
   linkType: hard
 
@@ -2663,11 +2663,11 @@ __metadata:
   dependencies:
     "@eslint/compat": "npm:2.1.0"
     "@eslint/js": "npm:10.0.1"
-    "@fontsource-variable/inter": "npm:5.2.8"
+    "@fontsource-variable/inter": "npm:5.3.0"
     "@internationalized/date": "npm:3.12.2"
     "@lucide/svelte": "npm:1.25.0"
     "@sveltejs/adapter-netlify": "npm:6.0.4"
-    "@sveltejs/kit": "npm:2.70.0"
+    "@sveltejs/kit": "npm:2.70.1"
     "@sveltejs/vite-plugin-svelte": "npm:7.2.0"
     "@tailwindcss/vite": "npm:4.3.3"
     "@testing-library/jest-dom": "npm:6.9.1"
@@ -2678,7 +2678,7 @@ __metadata:
     clsx: "npm:2.1.1"
     eslint: "npm:10.7.0"
     eslint-config-prettier: "npm:10.1.8"
-    eslint-plugin-svelte: "npm:3.20.0"
+    eslint-plugin-svelte: "npm:3.21.0"
     globals: "npm:17.7.0"
     jsdom: "npm:29.1.1"
     mode-watcher: "npm:1.1.0"
