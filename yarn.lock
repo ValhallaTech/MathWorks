@@ -1894,9 +1894,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-svelte@npm:3.21.0":
-  version: 3.21.0
-  resolution: "eslint-plugin-svelte@npm:3.21.0"
+"eslint-plugin-svelte@npm:3.22.0":
+  version: 3.22.0
+  resolution: "eslint-plugin-svelte@npm:3.22.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.6.1"
     "@jridgewell/sourcemap-codec": "npm:^1.5.0"
@@ -1914,7 +1914,7 @@ __metadata:
   peerDependenciesMeta:
     svelte:
       optional: true
-  checksum: 10c0/405d2b02260e89214e350e514f16f74dd39a861fb85efb8847b91c6039eecf3ea2687a321ae9e0bfdfe430c84d85dacfb813943cbe2eceb3b64e559c650eee8a
+  checksum: 10c0/ddc19d604d88f5794b9895c0668d068d9240938de8b2d1b54fd65e91ab1116bfdb391c401446b6dfd1cd49a7a365e8f7c3d4a98201382f8eb654af54594f61cd
   languageName: node
   linkType: hard
 
@@ -2678,16 +2678,16 @@ __metadata:
     clsx: "npm:2.1.1"
     eslint: "npm:10.7.0"
     eslint-config-prettier: "npm:10.1.8"
-    eslint-plugin-svelte: "npm:3.21.0"
+    eslint-plugin-svelte: "npm:3.22.0"
     globals: "npm:17.7.0"
     jsdom: "npm:29.1.1"
     mode-watcher: "npm:1.1.0"
-    prettier: "npm:3.9.5"
+    prettier: "npm:3.9.6"
     prettier-plugin-svelte: "npm:4.1.1"
     prettier-plugin-tailwindcss: "npm:0.8.1"
     rimraf: "npm:6.1.3"
     shadcn-svelte: "npm:1.4.2"
-    svelte: "npm:5.56.6"
+    svelte: "npm:5.56.7"
     svelte-check: "npm:4.7.3"
     tailwind-merge: "npm:3.6.0"
     tailwind-variants: "npm:3.2.2"
@@ -3086,12 +3086,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:3.9.5":
-  version: 3.9.5
-  resolution: "prettier@npm:3.9.5"
+"prettier@npm:3.9.6":
+  version: 3.9.6
+  resolution: "prettier@npm:3.9.6"
   bin:
     prettier: bin/prettier.cjs
-  checksum: 10c0/0349dd9e6d8010965de6f69e6b6ee2484b8caf78c66675afced6c75ad60ff24c3a2a4f41153fb8adeaee4d8f539641b48cebc71d283cec4d146e9962126c5ceb
+  checksum: 10c0/9f7ddae234035868f3daab3dc34e6de7e54622185afb017378029f0c09a9c023248ccf6f34def0b17a0538e18c47aa1b3188bab72965d1bf735919baa0747e99
   languageName: node
   linkType: hard
 
@@ -3515,9 +3515,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte@npm:5.56.6":
-  version: 5.56.6
-  resolution: "svelte@npm:5.56.6"
+"svelte@npm:5.56.7":
+  version: 5.56.7
+  resolution: "svelte@npm:5.56.7"
   dependencies:
     "@jridgewell/remapping": "npm:^2.3.4"
     "@jridgewell/sourcemap-codec": "npm:^1.5.0"
@@ -3535,7 +3535,7 @@ __metadata:
     locate-character: "npm:^3.0.0"
     magic-string: "npm:^0.30.11"
     zimmerframe: "npm:^1.1.2"
-  checksum: 10c0/32ba252188058248a69f572b328c88fa5ced3f1d7f1f4d1b0c105d3b4f4d73ac4b6f2431f20cbd88df24c467c771287c9fd5380f0fd9156ec8f8c72817751b92
+  checksum: 10c0/455c8bc1dd385bdcc2a4c140497403b95b1942524cdc6464f28fe8df5b7ed284f72853bd5c647c262072ce9568d8426f617a3ea70a9ac64d8d4fc2c6b0c99477
   languageName: node
   linkType: hard
 
