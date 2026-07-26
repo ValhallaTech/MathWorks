@@ -2212,10 +2212,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globals@npm:17.7.0":
-  version: 17.7.0
-  resolution: "globals@npm:17.7.0"
-  checksum: 10c0/e83f791acf537b85fa1632ac48a45432a1999a61acd9f955b5c2145f66d6b5000a7945029874b6184fa2dfac8d33af03885a5a7ffa457866f1bcf0b40d0c1291
+"globals@npm:17.8.0":
+  version: 17.8.0
+  resolution: "globals@npm:17.8.0"
+  checksum: 10c0/e31b36cef3befd446487674dc6ca7b8f8e62a3b76aadd975dbf80ffa732366b3ac58df8941999eb6b1406d97480103711db85d2a49c955da47ff5ec688bee9b5
   languageName: node
   linkType: hard
 
@@ -2679,7 +2679,7 @@ __metadata:
     eslint: "npm:10.8.0"
     eslint-config-prettier: "npm:10.1.8"
     eslint-plugin-svelte: "npm:3.22.0"
-    globals: "npm:17.7.0"
+    globals: "npm:17.8.0"
     jsdom: "npm:29.1.1"
     mode-watcher: "npm:1.1.0"
     prettier: "npm:3.9.6"
@@ -2690,7 +2690,7 @@ __metadata:
     svelte: "npm:5.56.8"
     svelte-check: "npm:4.7.3"
     tailwind-merge: "npm:3.6.0"
-    tailwind-variants: "npm:3.2.2"
+    tailwind-variants: "npm:3.3.0"
     tailwindcss: "npm:4.3.3"
     tw-animate-css: "npm:1.4.0"
     typescript: "npm:6.0.3"
@@ -3560,16 +3560,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwind-variants@npm:3.2.2":
-  version: 3.2.2
-  resolution: "tailwind-variants@npm:3.2.2"
+"tailwind-variants@npm:3.3.0":
+  version: 3.3.0
+  resolution: "tailwind-variants@npm:3.3.0"
   peerDependencies:
     tailwind-merge: ">=3.0.0"
     tailwindcss: "*"
   peerDependenciesMeta:
     tailwind-merge:
       optional: true
-  checksum: 10c0/715a35b66c374f3bb234cd1e6737588cb7c0213c80a69bd62239d752d20c44377bec1d028c3ea7c28882d81384507fbae407813d348c142cb991c5a0ad063d48
+    tailwindcss:
+      optional: true
+  checksum: 10c0/85ce245d98338911a0fba55422f7f66f78ba3c1b90fd663aad617a07485f72216c489cbc9095bad449d70d4f2bb30bf2e26be16e0fd2653a4ac01610294f2b72
   languageName: node
   linkType: hard
 
