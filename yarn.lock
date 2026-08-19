@@ -664,12 +664,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lucide/svelte@npm:1.32.0":
-  version: 1.32.0
-  resolution: "@lucide/svelte@npm:1.32.0"
+"@lucide/svelte@npm:1.33.0":
+  version: 1.33.0
+  resolution: "@lucide/svelte@npm:1.33.0"
   peerDependencies:
     svelte: ^5
-  checksum: 10c0/448d4261cee301627ae7d252fa4246c3bbc66280c73014a13064b588da182b2bf39f9e55f174bd745be3e05dccc1315901bada9e9a985cfceb9008ed8fd4f0f5
+  checksum: 10c0/afe85bf3c6af5f88ecfe7229a892e09b44638800607f8418b9726ec2e15e45a4fdeda947332fa614fc7f581561df3b07336bdd2f6ed0743ad270bd5a16ab8045
   languageName: node
   linkType: hard
 
@@ -1532,9 +1532,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bits-ui@npm:2.18.1":
-  version: 2.18.1
-  resolution: "bits-ui@npm:2.18.1"
+"bits-ui@npm:2.18.2":
+  version: 2.18.2
+  resolution: "bits-ui@npm:2.18.2"
   dependencies:
     "@floating-ui/core": "npm:^1.7.1"
     "@floating-ui/dom": "npm:^1.7.1"
@@ -1545,7 +1545,7 @@ __metadata:
   peerDependencies:
     "@internationalized/date": ^3.8.1
     svelte: ^5.33.0
-  checksum: 10c0/1ed513a994d66449ab00c091f70111de30182856a167110ec3a413317014e7b949c50a8501aaa8a7603829394e5499bcb5a2b7c4a38a541b3820aad03e01f3cf
+  checksum: 10c0/5350b9a33077fc9998732b56ce67e0259258f48c4a7251a3f0ef7ce5f601c9ec459e1f5d3f4bb48643c74d5011614f9e8af149e65d8bce754d683960ec8c4469
   languageName: node
   linkType: hard
 
@@ -2762,7 +2762,7 @@ __metadata:
     "@eslint/js": "npm:10.0.1"
     "@fontsource-variable/inter": "npm:5.3.0"
     "@internationalized/date": "npm:3.12.3"
-    "@lucide/svelte": "npm:1.32.0"
+    "@lucide/svelte": "npm:1.33.0"
     "@sveltejs/adapter-netlify": "npm:6.0.4"
     "@sveltejs/kit": "npm:2.70.3"
     "@sveltejs/vite-plugin-svelte": "npm:7.3.0"
@@ -2771,7 +2771,7 @@ __metadata:
     "@testing-library/svelte": "npm:5.4.2"
     "@testing-library/user-event": "npm:14.6.5"
     "@vitest/coverage-v8": "npm:4.1.11"
-    bits-ui: "npm:2.18.1"
+    bits-ui: "npm:2.18.2"
     clsx: "npm:2.1.1"
     eslint: "npm:10.8.1"
     eslint-config-prettier: "npm:10.1.8"
