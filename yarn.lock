@@ -2790,7 +2790,7 @@ __metadata:
     prettier-plugin-svelte: "npm:4.1.1"
     prettier-plugin-tailwindcss: "npm:0.8.1"
     rimraf: "npm:6.1.3"
-    shadcn-svelte: "npm:1.5.0"
+    shadcn-svelte: "npm:1.5.1"
     svelte: "npm:5.56.10"
     svelte-check: "npm:4.7.6"
     tailwind-merge: "npm:3.6.0"
@@ -3465,9 +3465,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shadcn-svelte@npm:1.5.0":
-  version: 1.5.0
-  resolution: "shadcn-svelte@npm:1.5.0"
+"shadcn-svelte@npm:1.5.1":
+  version: 1.5.1
+  resolution: "shadcn-svelte@npm:1.5.1"
   dependencies:
     commander: "npm:^14.0.0"
     node-fetch-native: "npm:^1.6.4"
@@ -3477,7 +3477,7 @@ __metadata:
     svelte: ^5.0.0
   bin:
     shadcn-svelte: dist/index.mjs
-  checksum: 10c0/44b41f794b1c04049aa7290ec3a17af5cfa5e6dada82641f8a31b4d6edd4ae1b691cb11f6b4b74b49408648da4698a49b312bc77782c625c179475687907937d
+  checksum: 10c0/ad0930b8b268d6dccf1c98e115f68d403d6387c95d39437d87b06cfef95f3291f874d457725ca68f8ccdbff4f48a01f3b3dbd67481bd381b16f84957a8a74f6f
   languageName: node
   linkType: hard
 
