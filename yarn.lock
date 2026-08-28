@@ -664,12 +664,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lucide/svelte@npm:1.34.0":
-  version: 1.34.0
-  resolution: "@lucide/svelte@npm:1.34.0"
+"@lucide/svelte@npm:1.35.0":
+  version: 1.35.0
+  resolution: "@lucide/svelte@npm:1.35.0"
   peerDependencies:
     svelte: ^5
-  checksum: 10c0/bf5d2885827545d69b27c4449d036a558ad48a490406039cfb296c4e4f9d312c640ff4c9230a705686dfdbceadc1e8bd815c163ea99f78c6f2fcde4819727fdc
+  checksum: 10c0/14b295380c848fdeb18f5d885ae47bee0b4d9814db4f54c823bac2b1d2f71c6c0c615805c70d139f20c34c96adc12e27c6882577137a9da800cc9d8663138e99
   languageName: node
   linkType: hard
 
@@ -2769,7 +2769,7 @@ __metadata:
     "@eslint/js": "npm:10.0.1"
     "@fontsource-variable/inter": "npm:5.3.0"
     "@internationalized/date": "npm:3.12.3"
-    "@lucide/svelte": "npm:1.34.0"
+    "@lucide/svelte": "npm:1.35.0"
     "@sveltejs/adapter-netlify": "npm:6.0.4"
     "@sveltejs/kit": "npm:2.70.3"
     "@sveltejs/vite-plugin-svelte": "npm:7.3.0"
