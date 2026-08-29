@@ -664,12 +664,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lucide/svelte@npm:1.35.0":
-  version: 1.35.0
-  resolution: "@lucide/svelte@npm:1.35.0"
+"@lucide/svelte@npm:1.37.0":
+  version: 1.37.0
+  resolution: "@lucide/svelte@npm:1.37.0"
   peerDependencies:
     svelte: ^5
-  checksum: 10c0/14b295380c848fdeb18f5d885ae47bee0b4d9814db4f54c823bac2b1d2f71c6c0c615805c70d139f20c34c96adc12e27c6882577137a9da800cc9d8663138e99
+  checksum: 10c0/f352d11f235f6c716a30f0a38c855a746199d155443faa8ac57ffda5a47cd7f2a8bd883f7e7811787424d3642e6e7fa1409e60d2f31d9b5b76d53b1dc9e3a581
   languageName: node
   linkType: hard
 
@@ -1308,13 +1308,6 @@ __metadata:
   version: 7.0.15
   resolution: "@types/json-schema@npm:7.0.15"
   checksum: 10c0/a996a745e6c5d60292f36731dd41341339d4eeed8180bb09226e5c8d23759067692b1d88e5d91d72ee83dfc00d3aca8e7bd43ea120516c17922cbcb7c3e252db
-  languageName: node
-  linkType: hard
-
-"@types/trusted-types@npm:^2.0.7":
-  version: 2.0.7
-  resolution: "@types/trusted-types@npm:2.0.7"
-  checksum: 10c0/4c4855f10de7c6c135e0d32ce462419d8abbbc33713b31d294596c0cc34ae1fa6112a2f9da729c8f7a20707782b0d69da3b1f8df6645b0366d08825ca1522e0c
   languageName: node
   linkType: hard
 
@@ -2769,7 +2762,7 @@ __metadata:
     "@eslint/js": "npm:10.0.1"
     "@fontsource-variable/inter": "npm:5.3.0"
     "@internationalized/date": "npm:3.12.3"
-    "@lucide/svelte": "npm:1.35.0"
+    "@lucide/svelte": "npm:1.37.0"
     "@sveltejs/adapter-netlify": "npm:6.0.4"
     "@sveltejs/kit": "npm:2.70.3"
     "@sveltejs/vite-plugin-svelte": "npm:7.3.0"
@@ -2791,7 +2784,7 @@ __metadata:
     prettier-plugin-tailwindcss: "npm:0.8.1"
     rimraf: "npm:6.1.3"
     shadcn-svelte: "npm:1.5.1"
-    svelte: "npm:5.56.10"
+    svelte: "npm:5.57.0"
     svelte-check: "npm:4.7.6"
     tailwind-merge: "npm:3.6.0"
     tailwind-variants: "npm:3.3.1"
@@ -3628,15 +3621,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte@npm:5.56.10":
-  version: 5.56.10
-  resolution: "svelte@npm:5.56.10"
+"svelte@npm:5.57.0":
+  version: 5.57.0
+  resolution: "svelte@npm:5.57.0"
   dependencies:
     "@jridgewell/remapping": "npm:^2.3.4"
     "@jridgewell/sourcemap-codec": "npm:^1.5.0"
     "@sveltejs/acorn-typescript": "npm:^1.0.10"
     "@types/estree": "npm:^1.0.5"
-    "@types/trusted-types": "npm:^2.0.7"
     acorn: "npm:^8.12.1"
     aria-query: "npm:5.3.1"
     axobject-query: "npm:^4.1.0"
@@ -3648,7 +3640,7 @@ __metadata:
     locate-character: "npm:^3.0.0"
     magic-string: "npm:^0.30.11"
     zimmerframe: "npm:^1.1.2"
-  checksum: 10c0/d7ee9627c36d257bdf25e0799ab3cb200347c2600a7d11358fd1e5b0b5240f17186fe67935d8827cb2ac4701ff6aea0494ebb41584762c10fe5d3532fc1fe1da
+  checksum: 10c0/7be135110932db5bd55e670a1bc66b4122b599326129b25d925396b86796d4720a0ec6100b2f77a7a3f57c79ec729d753bdd0e440b38bf33e6e9ff9e93644dce
   languageName: node
   linkType: hard
 
