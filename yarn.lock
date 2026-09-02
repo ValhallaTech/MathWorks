@@ -602,12 +602,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@internationalized/date@npm:3.12.3":
-  version: 3.12.3
-  resolution: "@internationalized/date@npm:3.12.3"
+"@internationalized/date@npm:3.12.4":
+  version: 3.12.4
+  resolution: "@internationalized/date@npm:3.12.4"
   dependencies:
     "@swc/helpers": "npm:^0.5.0"
-  checksum: 10c0/d99ef774b45326ecc3e96642b234de4e92440e4cc929f11141f91403515f1cdb321e66c40f4f71cc4140069776b78a8231c3a72966f3024018ee88da3c4a2726
+  checksum: 10c0/150ea8543cf8ac215a076138aaf86e845c26469ea49734e11cdae19d21a8e03f3824a622f9422211540c281feda5ccf6edfd30d98e89cd15c1c305aa1101e9c8
   languageName: node
   linkType: hard
 
@@ -664,12 +664,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lucide/svelte@npm:1.38.0":
-  version: 1.38.0
-  resolution: "@lucide/svelte@npm:1.38.0"
+"@lucide/svelte@npm:1.39.0":
+  version: 1.39.0
+  resolution: "@lucide/svelte@npm:1.39.0"
   peerDependencies:
     svelte: ^5
-  checksum: 10c0/24257885d13b3d06b060b48a2392b2b28e43c6817cb884a8c74f80c744c8abcb0f1a58b6d07a9b9434d3a34251715dbaaa1eb60657f4f2bd71f07d2b0255898f
+  checksum: 10c0/6b0a54abe39c6f024fc2ceb01116f0f7687f98654e83cdb60f5bed4a2ed36da8cff7c6f48967eefa4aa0857f7981258610ba7cdd44bfee6f61358d5523c0469f
   languageName: node
   linkType: hard
 
@@ -1241,12 +1241,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/user-event@npm:14.6.6":
-  version: 14.6.6
-  resolution: "@testing-library/user-event@npm:14.6.6"
+"@testing-library/user-event@npm:14.6.7":
+  version: 14.6.7
+  resolution: "@testing-library/user-event@npm:14.6.7"
   peerDependencies:
     "@testing-library/dom": ">=7.21.4"
-  checksum: 10c0/2cb82d3a364a2a29da19bb5d2a614aedaa474ac6f599a42fc28c1926056f7b91f5cec37b33452bafcb3f6b37a950024da289dea88ead3c2056c6005c91c7f942
+  checksum: 10c0/21f5e01bea2699b069947ae06d0b0fbabe0e90d2a2206b8f56a3f46126d09bd85320cba3fd3910c4d18710b1873e6966fb9021668966c615aaa14bf35d7df3ef
   languageName: node
   linkType: hard
 
@@ -2180,10 +2180,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globals@npm:17.11.0":
-  version: 17.11.0
-  resolution: "globals@npm:17.11.0"
-  checksum: 10c0/5e1be3d816e04d4d0d01b1cdd40e46b5fb6b5e9f15aece9a5919b060e0fb1b3f1b9e7327dce97ef19e05513a6d65872e0834999ddea251557556dddd0f5fde30
+"globals@npm:17.12.0":
+  version: 17.12.0
+  resolution: "globals@npm:17.12.0"
+  checksum: 10c0/8325cf8818c848871d17c32974c2c74e9c5f09c1b0e04421886f64f21e77c3e95f3ba25586743895a73acd860ada151132481d87d44a1f12993ae7758a694d03
   languageName: node
   linkType: hard
 
@@ -2761,29 +2761,29 @@ __metadata:
     "@eslint/compat": "npm:2.1.0"
     "@eslint/js": "npm:10.0.1"
     "@fontsource-variable/inter": "npm:5.3.0"
-    "@internationalized/date": "npm:3.12.3"
-    "@lucide/svelte": "npm:1.38.0"
+    "@internationalized/date": "npm:3.12.4"
+    "@lucide/svelte": "npm:1.39.0"
     "@sveltejs/adapter-netlify": "npm:6.0.4"
     "@sveltejs/kit": "npm:2.70.3"
     "@sveltejs/vite-plugin-svelte": "npm:7.3.0"
     "@tailwindcss/vite": "npm:4.3.3"
     "@testing-library/jest-dom": "npm:6.9.1"
     "@testing-library/svelte": "npm:5.4.2"
-    "@testing-library/user-event": "npm:14.6.6"
+    "@testing-library/user-event": "npm:14.6.7"
     "@vitest/coverage-v8": "npm:4.1.11"
     bits-ui: "npm:2.19.0"
     clsx: "npm:2.1.1"
     eslint: "npm:10.9.1"
     eslint-config-prettier: "npm:10.1.8"
     eslint-plugin-svelte: "npm:3.23.0"
-    globals: "npm:17.11.0"
+    globals: "npm:17.12.0"
     jsdom: "npm:29.1.1"
     mode-watcher: "npm:1.1.0"
     prettier: "npm:3.9.6"
     prettier-plugin-svelte: "npm:4.1.1"
     prettier-plugin-tailwindcss: "npm:0.8.1"
     rimraf: "npm:6.1.3"
-    shadcn-svelte: "npm:1.5.1"
+    shadcn-svelte: "npm:1.6.0"
     svelte: "npm:5.57.0"
     svelte-check: "npm:4.7.6"
     tailwind-merge: "npm:3.6.0"
@@ -3458,9 +3458,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shadcn-svelte@npm:1.5.1":
-  version: 1.5.1
-  resolution: "shadcn-svelte@npm:1.5.1"
+"shadcn-svelte@npm:1.6.0":
+  version: 1.6.0
+  resolution: "shadcn-svelte@npm:1.6.0"
   dependencies:
     commander: "npm:^14.0.0"
     node-fetch-native: "npm:^1.6.4"
@@ -3470,7 +3470,7 @@ __metadata:
     svelte: ^5.0.0
   bin:
     shadcn-svelte: dist/index.mjs
-  checksum: 10c0/ad0930b8b268d6dccf1c98e115f68d403d6387c95d39437d87b06cfef95f3291f874d457725ca68f8ccdbff4f48a01f3b3dbd67481bd381b16f84957a8a74f6f
+  checksum: 10c0/713086acf917303a26c69a6beb60167267a8f70f181508faaeabfe12efa4a0b20de1661def94562f7fcc7d9348700ae0b8e3443e524971db598e446ddb55b2f1
   languageName: node
   linkType: hard
 
