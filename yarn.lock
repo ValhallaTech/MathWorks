@@ -437,9 +437,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/compat@npm:2.1.0":
-  version: 2.1.0
-  resolution: "@eslint/compat@npm:2.1.0"
+"@eslint/compat@npm:2.1.1":
+  version: 2.1.1
+  resolution: "@eslint/compat@npm:2.1.1"
   dependencies:
     "@eslint/core": "npm:^1.2.1"
   peerDependencies:
@@ -447,7 +447,7 @@ __metadata:
   peerDependenciesMeta:
     eslint:
       optional: true
-  checksum: 10c0/05b9e54813f124c45a8142571dbc539ea06bfc70a21e28c5d39a145578a62c733a9029850b89e357ee5924b1ea19611bf4d7cfe894595028730f691b86e9815b
+  checksum: 10c0/c1856c72e09a767b74c930c1dc17155c479f8b9dd73067d634408ab26318335736265d5d0feee0466c31d796846939cbf68707a045f46f3a02b7c3ad3a093fc4
   languageName: node
   linkType: hard
 
@@ -664,12 +664,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lucide/svelte@npm:1.39.0":
-  version: 1.39.0
-  resolution: "@lucide/svelte@npm:1.39.0"
+"@lucide/svelte@npm:1.40.0":
+  version: 1.40.0
+  resolution: "@lucide/svelte@npm:1.40.0"
   peerDependencies:
     svelte: ^5
-  checksum: 10c0/6b0a54abe39c6f024fc2ceb01116f0f7687f98654e83cdb60f5bed4a2ed36da8cff7c6f48967eefa4aa0857f7981258610ba7cdd44bfee6f61358d5523c0469f
+  checksum: 10c0/b9926d39d4885194f31e521c896d16307d3164d8fff330c14ae16a9fcb5041abf01fd9aeda4bd4aefd46fb0cfcd5b02edfd8023d239e799670f13cf47a632b1a
   languageName: node
   linkType: hard
 
@@ -2758,11 +2758,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "math-works@workspace:."
   dependencies:
-    "@eslint/compat": "npm:2.1.0"
+    "@eslint/compat": "npm:2.1.1"
     "@eslint/js": "npm:10.0.1"
     "@fontsource-variable/inter": "npm:5.3.0"
     "@internationalized/date": "npm:3.12.4"
-    "@lucide/svelte": "npm:1.39.0"
+    "@lucide/svelte": "npm:1.40.0"
     "@sveltejs/adapter-netlify": "npm:6.0.4"
     "@sveltejs/kit": "npm:2.70.3"
     "@sveltejs/vite-plugin-svelte": "npm:7.3.0"
