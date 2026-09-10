@@ -1573,9 +1573,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bits-ui@npm:2.19.1":
-  version: 2.19.1
-  resolution: "bits-ui@npm:2.19.1"
+"bits-ui@npm:2.19.2":
+  version: 2.19.2
+  resolution: "bits-ui@npm:2.19.2"
   dependencies:
     "@floating-ui/core": "npm:^1.7.1"
     "@floating-ui/dom": "npm:^1.7.1"
@@ -1586,7 +1586,7 @@ __metadata:
   peerDependencies:
     "@internationalized/date": ^3.8.1
     svelte: ^5.33.0
-  checksum: 10c0/7d2e90d0e9d1b4cb05d417d7e05b0e34327dca888d280384befa2885369759b1c35c3cf0f94812342c8e896936392944d9f77ce909220694432585a48b0bc324
+  checksum: 10c0/a029313248b2670ff251f81faf1188f6b875e8e2cecb6dcb16f0570ac345694dbbb2e76fe55e4c2e7b3de5b593f29ade31a50010581df47e996c0620242c0c4f
   languageName: node
   linkType: hard
 
@@ -2842,7 +2842,7 @@ __metadata:
     "@testing-library/svelte": "npm:5.4.2"
     "@testing-library/user-event": "npm:14.6.7"
     "@vitest/coverage-v8": "npm:4.1.11"
-    bits-ui: "npm:2.19.1"
+    bits-ui: "npm:2.19.2"
     clsx: "npm:2.1.1"
     eslint: "npm:10.10.0"
     eslint-config-prettier: "npm:10.1.8"
