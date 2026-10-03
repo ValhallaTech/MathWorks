@@ -712,12 +712,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lucide/svelte@npm:1.50.0":
-  version: 1.50.0
-  resolution: "@lucide/svelte@npm:1.50.0"
+"@lucide/svelte@npm:1.51.0":
+  version: 1.51.0
+  resolution: "@lucide/svelte@npm:1.51.0"
   peerDependencies:
     svelte: ^5
-  checksum: 10c0/c6d4d2ed12c0d216e45231960276a86cd27251f0301d24428c1fa5927e0c309063c37b2402aef68305c7c67028c3818da6e36381d65b6d98cf85ca63de27328e
+  checksum: 10c0/4a8a7b56cdd51610e58a9e9fb437d42a5cc50ade19a352c4487c3ef772281b550d556f8e8b886172b23a54facfef16a6039ecfb4bd12a2b36a2cfed173959b18
   languageName: node
   linkType: hard
 
@@ -1598,9 +1598,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bits-ui@npm:2.19.4":
-  version: 2.19.4
-  resolution: "bits-ui@npm:2.19.4"
+"bits-ui@npm:2.19.5":
+  version: 2.19.5
+  resolution: "bits-ui@npm:2.19.5"
   dependencies:
     "@floating-ui/core": "npm:^1.7.1"
     "@floating-ui/dom": "npm:^1.7.1"
@@ -1611,7 +1611,7 @@ __metadata:
   peerDependencies:
     "@internationalized/date": ^3.8.1
     svelte: ^5.33.0
-  checksum: 10c0/f55c524c527b54fc968f6ad8ed3c7fd5acc4049ed150538592e1c13597b4a9683aa701faa793e42113415695a1a3d5b507f956807a14495769e2a2dd821b78e4
+  checksum: 10c0/fbd603ef8f418450c328bbb459acbb4fbe54b3db0a8b022084218152e3533e17098a750f716d43e60ed0a2bf1b7c7ac38dfd4ddb7866e87f80eebcf67a5df34f
   languageName: node
   linkType: hard
 
@@ -2874,7 +2874,7 @@ __metadata:
     "@eslint/js": "npm:10.0.1"
     "@fontsource-variable/inter": "npm:5.3.0"
     "@internationalized/date": "npm:3.12.4"
-    "@lucide/svelte": "npm:1.50.0"
+    "@lucide/svelte": "npm:1.51.0"
     "@sveltejs/adapter-netlify": "npm:6.0.4"
     "@sveltejs/kit": "npm:2.70.3"
     "@sveltejs/vite-plugin-svelte": "npm:7.3.1"
@@ -2883,7 +2883,7 @@ __metadata:
     "@testing-library/svelte": "npm:5.4.2"
     "@testing-library/user-event": "npm:14.6.7"
     "@vitest/coverage-v8": "npm:4.1.11"
-    bits-ui: "npm:2.19.4"
+    bits-ui: "npm:2.19.5"
     clsx: "npm:2.1.1"
     eslint: "npm:10.12.0"
     eslint-config-prettier: "npm:10.1.8"
