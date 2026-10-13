@@ -712,12 +712,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@lucide/svelte@npm:1.55.0":
-  version: 1.55.0
-  resolution: "@lucide/svelte@npm:1.55.0"
+"@lucide/svelte@npm:1.56.0":
+  version: 1.56.0
+  resolution: "@lucide/svelte@npm:1.56.0"
   peerDependencies:
     svelte: ^5
-  checksum: 10c0/988007f5dafb08965f2265e44ec900809736e2a86b16566302a3ac67741c49b1e6536873ad672d1b09f1b6eb90d991b229de9320ebb667dda1e3c28273002abc
+  checksum: 10c0/39e2e97aaa1704220273a7bdcd0b4ab9d2cdc73289d912e899dc04f8f69533503ebf8cc509c52445567219713576f736bb25da501f67ae9d98beb3a849d8e21d
   languageName: node
   linkType: hard
 
@@ -1298,12 +1298,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/user-event@npm:14.6.7":
-  version: 14.6.7
-  resolution: "@testing-library/user-event@npm:14.6.7"
+"@testing-library/user-event@npm:14.6.8":
+  version: 14.6.8
+  resolution: "@testing-library/user-event@npm:14.6.8"
   peerDependencies:
     "@testing-library/dom": ">=7.21.4"
-  checksum: 10c0/21f5e01bea2699b069947ae06d0b0fbabe0e90d2a2206b8f56a3f46126d09bd85320cba3fd3910c4d18710b1873e6966fb9021668966c615aaa14bf35d7df3ef
+  checksum: 10c0/374bbf9f477fdc278f4bf56d6a27f88b1801c90cce9dffc414777dbf33fb1e421efc7341ee169cb286435bb742076a7899bb463c9927d2acca95aafaa5324820
   languageName: node
   linkType: hard
 
@@ -2874,14 +2874,14 @@ __metadata:
     "@eslint/js": "npm:10.0.1"
     "@fontsource-variable/inter": "npm:5.3.0"
     "@internationalized/date": "npm:3.12.4"
-    "@lucide/svelte": "npm:1.55.0"
+    "@lucide/svelte": "npm:1.56.0"
     "@sveltejs/adapter-netlify": "npm:6.0.4"
     "@sveltejs/kit": "npm:2.70.3"
     "@sveltejs/vite-plugin-svelte": "npm:7.3.1"
     "@tailwindcss/vite": "npm:4.3.3"
     "@testing-library/jest-dom": "npm:6.9.1"
     "@testing-library/svelte": "npm:5.4.2"
-    "@testing-library/user-event": "npm:14.6.7"
+    "@testing-library/user-event": "npm:14.6.8"
     "@vitest/coverage-v8": "npm:4.1.11"
     bits-ui: "npm:2.19.5"
     clsx: "npm:2.1.1"
